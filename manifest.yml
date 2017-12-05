@@ -1,0 +1,5 @@
+applications:
+- name: functional-tests-callback-app
+  command: flask run
+  memory: 128M
+  buildpack: python_buildpack

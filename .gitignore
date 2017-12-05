@@ -1,0 +1,10 @@
+
+__pycache__/
+*.py[cod]
+
+# Mac
+*.DS_Store
+environment.sh
+.envrc
+
+venv/
