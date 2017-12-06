@@ -8,3 +8,5 @@ environment.sh
 .envrc
 
 venv/
+
+database.db
