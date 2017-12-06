@@ -1,5 +1,8 @@
 applications:
 - name: functional-tests-callback-app
-  command: flask run
   memory: 128M
   buildpack: python_buildpack
+  command: flask run --host=0.0.0.0 -p $PORT
+  env:
+    FLASK_APP: app.py
+    FLASK_DEBUG: 0
